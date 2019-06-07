@@ -147,10 +147,11 @@ form .login {
   display: none;
 }
 
-/*form .user-group {
+form .user-group {
   transition: 0.3s linear;
 }
-footer {
+
+/*footer {
   height: 25px;
   text-align: center;
 }
