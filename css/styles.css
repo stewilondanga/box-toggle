@@ -130,7 +130,7 @@ form input:focus {
   outline: 0;
 }
 
-/*form button {
+form button {
   border-radius: 0.2777777778em;
   background: #5bc982;
   margin-top: auto;
@@ -138,7 +138,8 @@ form input:focus {
   border: 1px solid #5bc982 !important;
   color: #fff !important;
 }
-form button:hover {
+
+/*form button:hover {
   background: #6ed090;
 }
 form .login {
