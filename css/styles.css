@@ -143,10 +143,11 @@ form button:hover {
   background: #6ed090;
 }
 
-/*form .login {
+form .login {
   display: none;
 }
-form .user-group {
+
+/*form .user-group {
   transition: 0.3s linear;
 }
 footer {
