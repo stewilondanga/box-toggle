@@ -54,7 +54,7 @@ input[type="checkbox"]:checked~form input {
   border-bottom-color: grey;
 }
 
-/*.main-div {
+.main-div {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -64,7 +64,8 @@ input[type="checkbox"]:checked~form input {
   border: 2px solid #949aa7;
   margin: 5.5555em auto;
 }
-form button,
+
+/*form button,
 form input {
   width: 100%;
   padding: 0.83333em;
