@@ -33,11 +33,12 @@ form button {
   cursor: pointer;
 }
 
-/*input[type="checkbox"],
-input[type="checkbox"]:checked ~ form .sign-up {
+input[type="checkbox"],
+input[type="checkbox"]:checked~form .sign-up {
   display: none;
 }
-input[type="checkbox"]:checked ~ form {
+
+/*input[type="checkbox"]:checked ~ form {
   transform: translateX(300px) translateY(-35px);
 }
 input[type="checkbox"]:checked ~ form .login {
