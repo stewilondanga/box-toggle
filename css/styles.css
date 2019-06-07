@@ -85,11 +85,12 @@ form input {
   color: #124bec;
 }
 
-/*.child-div label:hover {
+.child-div label:hover {
   background: #124bec;
   color: #fff !important;
 }
-.child-div:nth-child(1) label {
+
+/*.child-div:nth-child(1) label {
   color: #fff;
   border: 1px solid #fff;
 }
