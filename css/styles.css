@@ -151,12 +151,12 @@ form .user-group {
   transition: 0.3s linear;
 }
 
-/*footer {
+footer {
   height: 25px;
   text-align: center;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
