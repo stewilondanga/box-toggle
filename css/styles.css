@@ -100,11 +100,12 @@ form input {
   color: #fff !important;
 }
 
-/*.child-div:nth-child(2),
+.child-div:nth-child(2),
 form {
   background: #fff;
 }
-form {
+
+/*form {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
