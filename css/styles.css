@@ -126,10 +126,11 @@ form input {
   transition: 0.3s ease-in 0.3s;
 }
 
-/*form input:focus {
+form input:focus {
   outline: 0;
 }
-form button {
+
+/*form button {
   border-radius: 0.2777777778em;
   background: #5bc982;
   margin-top: auto;
