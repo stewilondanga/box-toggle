@@ -139,10 +139,11 @@ form button {
   color: #fff !important;
 }
 
-/*form button:hover {
+form button:hover {
   background: #6ed090;
 }
-form .login {
+
+/*form .login {
   display: none;
 }
 form .user-group {
