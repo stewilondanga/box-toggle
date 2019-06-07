@@ -71,12 +71,13 @@ form input {
   padding: 0.83333em;
 }
 
-/*.child-div {
+.child-div {
   flex: 1;
   height: 100%;
   background: #f5f5f5;
 }
-.child-div label {
+
+/*.child-div label {
   display: block;
   margin: 15.5555em auto 0;
   transition: 0.1s ease-in;
