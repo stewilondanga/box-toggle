@@ -105,7 +105,7 @@ form {
   background: #fff;
 }
 
-/*form {
+form {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -118,7 +118,8 @@ form {
   overflow: hidden;
   transition: 0.3s ease-in;
 }
-form input {
+
+/*form input {
   margin: 1.1111111111em 0;
   border-color: transparent;
   border-bottom: 1px solid #f2f2f2;
