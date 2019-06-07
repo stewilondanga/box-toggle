@@ -90,11 +90,12 @@ form input {
   color: #fff !important;
 }
 
-/*.child-div:nth-child(1) label {
+.child-div:nth-child(1) label {
   color: #fff;
   border: 1px solid #fff;
 }
-.child-div:nth-child(1) label:hover {
+
+/*.child-div:nth-child(1) label:hover {
   background: #124bec;
   color: #fff !important;
 }
