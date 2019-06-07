@@ -17,11 +17,12 @@ body {
   height: 1.5em;
 }
 
-/*form,
+form,
 form input {
   box-sizing: border-box;
 }
-.child-div label,
+
+/*.child-div label,
 form button {
   border: 1px solid #124bec !important;
   color: #124bec !important;
