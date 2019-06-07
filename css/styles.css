@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,126 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+form,
+form input {
+  box-sizing: border-box;
+}
+.child-div label,
+form button {
+  border: 1px solid #124bec !important;
+  color: #124bec !important;
+  font-family: sans-serif;
+  text-align: center;
+  width: 8.3333em;
+  padding: 0.5555em;
+  cursor: pointer;
+}
+body {
+  background: #fff;
+}
+input[type="checkbox"],
+input[type="checkbox"]:checked ~ form .sign-up {
+  display: none;
+}
+input[type="checkbox"]:checked ~ form {
+  transform: translateX(300px) translateY(-35px);
+}
+input[type="checkbox"]:checked ~ form .login {
+  display: block;
+}
+input[type="checkbox"]:checked ~ form .user-group {
+  transform: translateY(-150px);
+}
+input[type="checkbox"]:checked ~ form input {
+  border-bottom-color: grey;
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 670px;
+  height: 355px;
+  border: 2px solid #949aa7;
+  margin: 5.5555em auto;
+}
+form button,
+form input {
+  width: 100%;
+  padding: 0.83333em;
+}
+.child-div {
+  flex: 1;
+  height: 100%;
+  background: #f5f5f5;
+}
+.child-div label {
+  display: block;
+  margin: 15.5555em auto 0;
+  transition: 0.1s ease-in;
+  border-radius: 0.11111em;
+  color: #124bec;
+}
+.child-div label:hover {
+  background: #124bec;
+  color: #fff !important;
+}
+.child-div:nth-child(1) label {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.child-div:nth-child(1) label:hover {
+  background: #124bec;
+  color: #fff !important;
+}
+.child-div:nth-child(2),
+form {
+  background: #fff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 285px;
+  height: auto;
+  transform: translateX(70px) translateY(-35px);
+  box-shadow: 4px 5px 50px rgba(34, 34, 34, 0.5);
+  padding: 0.83333em 1.3888888889em;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+}
+form input {
+  margin: 1.1111111111em 0;
+  border-color: transparent;
+  border-bottom: 1px solid #f2f2f2;
+  transition: 0.3s ease-in 0.3s;
+}
+form input:focus {
+  outline: 0;
+}
+form button {
+  border-radius: 0.2777777778em;
+  background: #5bc982;
+  margin-top: auto;
+  transition: 0.1s linear;
+  border: 1px solid #5bc982 !important;
+  color: #fff !important;
+}
+form button:hover {
+  background: #6ed090;
+}
+form .login {
+  display: none;
+}
+form .user-group {
+  transition: 0.3s linear;
+}
+footer {
+  height: 25px;
+  text-align: center;
 }
 
 .containers {
